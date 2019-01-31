@@ -10,6 +10,7 @@ def usage():
     print ('Usage: python %s <PATH_TO_JAAS_FILE>' % os.path.basename(__file__))
     sys.exit(1)
 
+
 def getConf(jaas_conf_path):
     checkFile(jaas_conf_path)
     formatted_body = reformat(jaas_conf_path)
